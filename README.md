@@ -9,13 +9,13 @@ yarn install
 ## Install a dependency on a workspace
 
 ```sh
-yarn workspace @lerna-test/mobile add expo-font -W
+yarn workspace @lerna-monorepo/mobile add expo-font -W
 ```
 
 ## Start mobile application test react-native expo
 
 ```sh
-npx lerna run --scope @lerna-test/mobile start --stream
+npx lerna run --scope @lerna-monorepo/mobile start --stream
 ```
 
 > --stream : keep the outputs of the commands
