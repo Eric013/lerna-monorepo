@@ -18,7 +18,7 @@ yarn workspace @lerna-test/mobile add expo-font -W
 npx lerna run --scope @lerna-test/mobile start --stream
 ```
 
-> --stream : permet d'avoir les outputs de la command start du projet
+> --stream : keep the outputs of the commands
 
 ## References
 
