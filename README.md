@@ -1,18 +1,18 @@
 # Monorepo project: Lerna + Yarn + Typescript + React-Native Expo + Next.js
 
-## Start le project
+## Start project
 
 ```sh
 yarn install
 ```
 
-## Installer une dépendance sur un workspace
+## Install a dependency on a workspace
 
 ```sh
 yarn workspace @lerna-test/mobile add expo-font -W
 ```
 
-## Start l'application react-native de test
+## Start mobile application test react-native expo
 
 ```sh
 npx lerna run --scope @lerna-test/mobile start --stream
@@ -20,7 +20,7 @@ npx lerna run --scope @lerna-test/mobile start --stream
 
 > --stream : permet d'avoir les outputs de la command start du projet
 
-## Références utilisées
+## References
 
 - [Monorepo setup](https://baltuta.eu/posts/typescript-lerna-monorepo-the-setup)
 - [Monorepo step by bstep](https://blog.usejournal.com/step-by-step-guide-to-create-a-typescript-monorepo-with-yarn-workspaces-and-lerna-a8ed530ecd6d)
